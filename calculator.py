@@ -26,3 +26,4 @@ def get_input():
   
 
 input()
+get_input()
