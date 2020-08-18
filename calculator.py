@@ -24,5 +24,5 @@ def get_input():
   elif(op=='/'):
   division(num1,num2)
   
-
+input()
 get_input()
