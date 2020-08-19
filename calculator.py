@@ -14,4 +14,5 @@ print("Select Operation \n 1.Addition \n 2.Subtraction \n 3.Multiplication \n 4.
 
 opt=int(input("operation : "))
 
-input()
+Number1=int(input("Enter the First Number = "))
+Number2=int(input("Enter the Second Number = "))
