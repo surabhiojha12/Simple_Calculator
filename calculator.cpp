@@ -2,11 +2,11 @@
 using namespace std;
 
 int addition(int number_1, int number_2){
-    return number_1 + number_2
+    return number_1 + number_2;
 }
 
 int subtraction(int number_1, int number_2){
-    return number1 - number2
+    return number1 - number2;
 }
 
 int multiplication(int number_1, int number_2){
@@ -14,7 +14,7 @@ int multiplication(int number_1, int number_2){
 }
 
 int division(int number_1, int number_2){
-
+    return number_1/number_2;
 }
 
 int get_input(){
