@@ -17,7 +17,7 @@ def get_input():
     elif(operate=='*'):
         print(multiplication(num1,num2))
     elif(operate=='/'):
-        if(num1==0 or num2==0):
+        if(num2==0):
             print("ZERO DIVISION ERROR")
         else:
             print(division(num1, num2))
