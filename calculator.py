@@ -12,8 +12,12 @@ def division(number_1, number_2):
     print("quotient of",number_1," and ",number_2," is ",(number_1 // number_2))  
 
 def get_input():
+    global a 
+    global b
+    a = float(input("enter the first number: "))
+    b = float(input("enter the second number: "))
 
 
 
 
-input()
+get_input()
