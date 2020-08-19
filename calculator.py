@@ -12,3 +12,5 @@ def division(number_1, number_2):
 
 print("1.ADDITION\n2.SUBTRACTION\n3.MULTIPLICATION\n4.DIVISION")
 n = int(input("enter the option: "))
+number_1 = int(input("enter the first number: "))
+number_2 = int(input("enter the second number: "))
