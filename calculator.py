@@ -17,6 +17,8 @@ def get_input():
     a = float(input("enter the first number: "))
     b = float(input("enter the second number: "))
 
+print("1.ADDITION\n2.SUBTRACTION\n3.MULTIPLICATION\n4.DIVISION")
+n = int(input("enter the option: "))
 
 
 
