@@ -6,7 +6,7 @@ return number_1 + number_2;
 }
 
 int subtraction(int number_1, int number_2){
-
+return number_1 - number_2;
 }
 
 int multiplication(int number_1, int number_2){
@@ -22,6 +22,7 @@ int a,b;
 cout<<"\n Enter two Integers :: ";
 cin>>a>>b;
 cout<<"\n Sum of Numbers : "<<addition(a,b);
+cout<<"\n Difference of Numbers : "<<subtraction(a,b);
 }
 
 int main(){
