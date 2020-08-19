@@ -18,16 +18,16 @@ return number_1/number_2;
 }
 
 int get_input(){
-int a,b;
+int number_1,number_2;
 cout<<"\n Enter two Integers :: ";
-cin>>a>>b;
-cout<<"\n Sum of Numbers "<<a<<" and "<<b <<" : "<<addition(a,b);
-cout<<"\n Difference of Numbers "<<a<<" and "<<b <<" : "<<subtraction(a,b);
-cout<<"\n Product of Numbers "<<a<<" and "<<b <<" : "<<multiplication(a,b);
+cin>>number_1>>number_2;
+cout<<"\n Sum of Numbers "<<number_1<<" and "<<number_2<<" : "<<addition(a,b);
+cout<<"\n Difference of Numbers "<<number_1<<" and "<<number_2<<" : "<<subtraction(a,b);
+cout<<"\n Product of Numbers "<<number_1<<" and "<<number_2<<" : "<<multiplication(a,b);
 if(b==0)
 cout<<"\n Division Not Possible !!! Division by Zero error";
 else
-cout<<"\n Quotient of Division of Numbers "<<a<<" and "<<b <<" : "<<division(a,b);
+cout<<"\n Quotient of Division of Numbers "<<number_1<<" and "<<number_2<<" : "<<division(a,b);
 }
 
 int main(){
