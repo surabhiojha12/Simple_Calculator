@@ -8,6 +8,7 @@ def multiplication(number_1, number_2):
   print(number_1 * number_2)
 
 def division(number_1, number_2):
+  print(number_1 / number_2)
 
 def get_input():
   a,b,c = input().split()
