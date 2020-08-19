@@ -22,6 +22,11 @@ if(a == 1):
     addition(number_1,number_2)
 elif(a == 2):
     subtraction(number_1,number_2)
-
+elif(a == 3):
+    multiplication(number_1,number_2)
+elif(a == 4):
+    division(number_1,number_2)
+else:
+    print("invalid option")
 
 
