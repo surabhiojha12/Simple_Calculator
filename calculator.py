@@ -24,5 +24,9 @@ elif ch=="4":
     print(number_1/number_2)
 else:
     print("Invalid input")
+    addition(number_1,number_2)
+    subtraction(number_1,number_2)
+    multiplication(number_1,number_2)
+    division(number_1,number_2)
     
 
