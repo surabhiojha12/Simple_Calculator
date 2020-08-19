@@ -24,18 +24,21 @@ int result
 
 if opt == 1:
      result=addition(Number1,Number2)
-     
+     print("Addition of ",Number1, " and",Number2 " = "result)
      
 else if opt == 2:
      result=subtraction(Number1,Number2)
+     print("Subtraction of ",Number1, " and",Number2 " = "result)
      
      
 else if opt == 3:
     result=multiplication(Number1,Number2)
+    print("Multiplication of ",Number1, " and",Number2 " = "result)
     
     
 else if opt == 4:
     result=division(Number1,Number2)
+    print("Division of ",Number1, " and",Number2 " = "result)
     
 else:
     print("Invalid input")
