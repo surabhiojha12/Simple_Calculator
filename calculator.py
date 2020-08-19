@@ -12,10 +12,13 @@ def get_input():
     num2=int(num2)
     if(operate=='+'):
         print(addition(num1,num2))
-    if(operate=='-'):
+    elif(operate=='-'):
         print(subtraction(num1,num2))
-    if(operate=='*'):
+    elif(operate=='*'):
         print(multiplication(num1,num2))
-    if(operate=='/'):
-        print(division(num1, num2))
+    elif(operate=='/'):
+        if(num1==0 or num2==0):
+            print("ZERO DIVISION ERROR")
+        else:
+            print(division(num1, num2))
 get_input()
