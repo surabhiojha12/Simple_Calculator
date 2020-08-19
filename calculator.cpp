@@ -18,7 +18,14 @@ int division(int number_1, int number_2){
 }
 
 int get_input(){
-
+    int a,b;
+    cout<<"Enter 2 numbers"<<endl;
+    cin>>a>>b;
+    cout<<"addition : "<<addition(a,b)<<endl;
+    cout<<"subtraction : "<<subtraction(a,b)<<endl;
+    cout<<"multiplication : "<<multiplication(a,b)<<endl;
+    cout<<"division : "<<division(a,b)<<endl;
+    
 }
 
 int main(){
