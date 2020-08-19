@@ -21,10 +21,13 @@ int get_input(){
 int a,b;
 cout<<"\n Enter two Integers :: ";
 cin>>a>>b;
-cout<<"\n Sum of Numbers : "<<addition(a,b);
-cout<<"\n Difference of Numbers : "<<subtraction(a,b);
-cout<<"\n Product of Numbers : "<<multiplication(a,b);
-cout<<"\n Quotient of Division of Numbers : "<<division(a,b);
+cout<<"\n Sum of Numbers "<<a<<" and "<<b <<" : "<<addition(a,b);
+cout<<"\n Difference of Numbers "<<a<<" and "<<b <<" : "<<subtraction(a,b);
+cout<<"\n Product of Numbers "<<a<<" and "<<b <<" : "<<multiplication(a,b);
+if(b==0)
+cout<<"\n Division Not Possible !!! Division by Zero error";
+else
+cout<<"\n Quotient of Division of Numbers "<<a<<" and "<<b <<" : "<<division(a,b);
 }
 
 int main(){
