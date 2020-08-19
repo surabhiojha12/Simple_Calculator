@@ -1,10 +1,14 @@
 def addition(number_1, number_2):
+    print(number_1+number_2)
 
 def subtraction(number_1, number_2):
+     print(number_1-number_2)
 
 def multiplication(number_1, number_2):
+     print(number_1*number_2)
 
 def division(number_1, number_2):
+    print(number_1/number_2)
 
 
 
@@ -14,19 +18,20 @@ ch=input("enter choice:")
 number1=float(input("enter number 1:"))
 number2=float(input("enter number 2:"))
 if ch== "1":
-    print(number_1+number_2)
+    addition(number_1,number_2)
+    
 
 elif ch=="2":
-    print(number_1-number_2)
+    subtraction(number_1,number_2)
+    
 elif ch=="3":
-    print(number_1*number_2)
+    multiplication(number_1,number_2)
+    
 elif ch=="4":
-    print(number_1/number_2)
+    division(number_1,number_2)
+    
 else:
     print("Invalid input")
-    addition(number_1,number_2)
-    subtraction(number_1,number_2)
-    multiplication(number_1,number_2)
-    division(number_1,number_2)
+    
     
 
