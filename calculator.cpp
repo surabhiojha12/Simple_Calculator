@@ -2,7 +2,7 @@
 using namespace std;
 
 int addition(int number_1, int number_2){
-
+return number_1 + number_2;
 }
 
 int subtraction(int number_1, int number_2){
@@ -18,7 +18,10 @@ int division(int number_1, int number_2){
 }
 
 int get_input(){
-
+int a,b;
+cout<<"\n Enter two Integers :: ";
+cin>>a>>b;
+cout<<"\n Sum of Numbers : "<<addition(a,b);
 }
 
 int main(){
