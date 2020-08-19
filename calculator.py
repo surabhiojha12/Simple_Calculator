@@ -16,3 +16,13 @@ print("Enter the option you want to perform:")
 n=int(input())
 number_1 = int(input("Enter the first number:"))
 number_2 = int(input("Enter the second number:"))
+if(n==1):
+    addition(number_1,number_2)
+elif(n==2):
+    subtraction(number_1,number_2)
+elif(n==3):
+    multiplication(number_1,number_2)
+elif(n==4):
+    division(number_1,number_2)
+else:
+    print("Invalid input!!!")
