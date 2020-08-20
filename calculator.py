@@ -22,17 +22,20 @@ def get_input():
         print("Enter a valid number/operator")
     else :
         if(operator == '+') :
-            print("Answer :",addition(number_1,number_2))
+            addition_result = addition(number_1,number_2)
+            print(f"{number_1} + {number_2} = {addition_result}")
         elif(operator == '-') :
-            print("Answer :",subtraction(number_1,number_2))
+            subtraction_result = subtraction(number_1,number_2)
+            print(f"{number_1} - {number_2} = {subtraction_result}")
         elif(operator == '*') :
-            print("Answer :",multiplication(number_1,number_2))
+            multiplication_result = multiplication(number_1,number_2)
+            print(f"{number_1} * {number_2} = {multiplication_result}")
         elif(operator == '/') :
-            answer = division(number_1,number_2)
-            if(answer == None):
+            division_result = division(number_1,number_2)
+            if(division_result == None):
                 print("You can't divide a number by 0")
             else :
-                print("Answer :",answer)
+                print(f"{number_1} / {number_2} = {division_result}")
         else :
             print("Enter an valid operation")
 
