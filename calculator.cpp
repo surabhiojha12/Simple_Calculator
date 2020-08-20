@@ -22,6 +22,14 @@ int get_input(){
 }
 
 int main(){
-    get_input();
+    int a,b;
+    get_input(a);
+    get_input(b);
+    cout<<addition(a,b)<<"\n";
+    cout<<subraction(a,b)<<"\n";
+    cout<<division(a,b)<<"\n";
+    cout<<multiplication(a,b)<<"\n";
+    
+    
     return 0;
 }
