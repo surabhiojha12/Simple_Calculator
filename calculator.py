@@ -8,16 +8,22 @@ def multiplication(number_1, number_2):
      print('Multiplication:',number_1 * number_2)
 
 def division(number_1, number_2):
-     print('Division:',number_1 / number_2)
+     if number_2 == 0:
+          print("Division: Undefined")
+     else:
+          print('Division:',number_1 / number_2)
 
 def get_input():
-    global x, y
-    x = int(input('Enter num1: '))
-    y = int(input('Enter num2: '))
+    num1 = int(input('Enter num1: '))
+    num2 = int(input('Enter num2: '))
+    return (num1, num2)
 
-    
-get_input()
-addition(x, y)
-subtraction(x, y)
-multiplication(x, y)
-division(x, y)
+def calculator():
+
+     x, y = get_input()
+     addition(x, y)
+     subtraction(x, y)
+     multiplication(x, y)
+     division(x, y)
+
+calculator()
