@@ -5,6 +5,10 @@ def addition(number_1,number_2):
 def subtraction(number_1,number_2):
     difference=number_1-number_2
     print("Difference of",number_1,"and",number_2,"is:",difference)
+
+def multiplication(number_1,number_2):
+    product=number_1*number_2
+    print("Product of",number_1,"and",number_2,"is:",product)
     
 def get_input():
     number_1=int(input("Enter the first number: "))
