@@ -22,6 +22,13 @@ int get_input(){
 }
 
 int main(){
-    get_input();
+    int a,b;
+    get_input(a);
+    get_input(b);
+    addition(a,b);
+    subractin(a,b);
+    multiplication(a,b);
+    division(a,b);
+    
     return 0;
 }
