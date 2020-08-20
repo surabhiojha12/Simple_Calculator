@@ -1,11 +1,23 @@
-def addition(number_1, number_2):
-
-def subtraction(number_1, number_2):
-
-def multiplication(number_1, number_2):
-
-def division(number_1, number_2):
-
 def get_input():
+    number_1=int(input("Enter the first number: "))
+    number_2=int(input("Enter the second number: "))
+    print("Select any operation")
+    print("1.Addition")
+    print("2.Subtraction")
+    print("3.Multiplication")
+    print("4.Division")
+    choice=int(input())
+    if choice==1:
+        addition(number_1,number_2)
+    elif choice==2:
+        subtraction(number_1,number_2)
+    elif choice==3:
+        multiplication(number_1,number_2)
+    elif choice==4:
+        division(number_1,number_2)
+    else:
+        print("Invalid Option")
 
-input()
+get_input()
+    
+
