@@ -14,6 +14,7 @@ int multiplication(int number_1, int number_2){
 }
 
 int division(int number_1, int number_2){
+    
 
 }
 
@@ -25,10 +26,10 @@ int main(){
     int a,b;
     get_input(a);
     get_input(b);
-    addition(a,b);
-    subractin(a,b);
-    multiplication(a,b);
-    division(a,b);
+    cout<<addition(a,b)<<"\n";
+    cout<<subractin(a,b)<<"\n";
+    cout<<multiplication(a,b)<<"\n";
+    cout<<division(a,b)<<"\n";
     
     return 0;
 }
