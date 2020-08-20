@@ -17,29 +17,29 @@ def get_input():
     
      try:
     
-        a=float(input("Enter first number : "))
-        b=float(input("Enter second number: "))
-        op= input("select the opertaion to be performed: '+','-','*','/' ")  
+        number_1=float(input("Enter first number : "))
+        number_2=float(input("Enter second number: "))
+        operator= input("select the opertaion to be performed: '+','-','*','/' ")  
 
      except:
          print("Enter a valid number or operator")
 
      else: 
-         if( op =='+'):
-             print(a,"+",b, "=", addition(a,b))
+         if( operator =='+'):
+             print(number_1,"+",number_2, "=", addition(number_1,number_2))
              
-         elif(op == '-'):
-              print(a,"-",b, "=", subtraction(a,b))
+         elif(operator == '-'):
+              print(number_1,"-",number_2, "=", subtraction(number_1,number_2))
               
-         elif(op == '*'):
-             print(a,"*",b,"=",multiplication(a,b))
+         elif(operator == '*'):
+             print(number_1,"*",number_2,"=",multiplication(number_1,number_2))
              
-         elif(op == '/'):
-             ans = division(a,b)
-             if(ans == None):
+         elif(operator == '/'):
+             answer = division(number_1,number_2)
+             if(answer == None):
                  print("\nCannot divide a number by 0")
              else:
-                 print(a,"/",b,"=",ans)
+                 print(number_1,"/",number_2,"=",answer)
                  
          else:
              print("Enter an valid operator")
