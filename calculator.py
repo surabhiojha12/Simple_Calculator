@@ -22,14 +22,11 @@ def get_input():
         print("Enter a valid number/operator")
     else :
         if(operator == '+') :
-            addition_result = addition(number_1,number_2)
-            print(f"{number_1} + {number_2} = {addition_result}")
+            print(f"{number_1} + {number_2} = {addition(number_1,number_2)}")
         elif(operator == '-') :
-            subtraction_result = subtraction(number_1,number_2)
-            print(f"{number_1} - {number_2} = {subtraction_result}")
+            print(f"{number_1} - {number_2} = {subtraction(number_1,number_2)}")
         elif(operator == '*') :
-            multiplication_result = multiplication(number_1,number_2)
-            print(f"{number_1} * {number_2} = {multiplication_result}")
+            print(f"{number_1} * {number_2} = {multiplication(number_1,number_2)}")
         elif(operator == '/') :
             division_result = division(number_1,number_2)
             if(division_result == None):
