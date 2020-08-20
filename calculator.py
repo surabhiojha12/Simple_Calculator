@@ -1,11 +1,15 @@
 def addition(number_1, number_2):
-
+    return (number_1+number_2)
 def subtraction(number_1, number_2):
-
-def multiplication(number_1, number_2):
-
-def division(number_1, number_2):
-
+    return (number_1-number_2)
+def multiplication(number_1 , number_2):
+    return (number_1*number_2)
+def division(number_1 , number_2):
+	try:
+    	return (number_1/number_2)
+    except ZeroDivisionError:
+    	return "error"
+    	
 def get_input():
 	print("....SIMPLE CALCULATOR....")
 	print("Select Operation\n1.Addition \n2.Substraction \n3.Multiplication \n 4.Division")
