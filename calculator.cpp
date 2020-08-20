@@ -31,7 +31,7 @@ int main(){
     int a,b;
     get_input(a);
     get_input(b);
-    cout<<addition(a,b)<<"\n";
+    cout<<addition(a,b)<<"\n ";
     cout<<subractin(a,b)<<"\n";
     cout<<multiplication(a,b)<<"\n";
     cout<<division(a,b)<<"\n";
