@@ -35,11 +35,11 @@ def get_input():
              print(number_1,"*",number_2,"=",multiplication(number_1,number_2))
              
          elif(operator == '/'):
-             answer = division(number_1,number_2)
-             if(answer == None):
+             division_result = division(number_1,number_2)
+             if(division_result == None):
                  print("\nCannot divide a number by 0")
              else:
-                 print(number_1,"/",number_2,"=",answer)
+                 print(number_1,"/",number_2,"=",division_result)
                  
          else:
              print("Enter an valid operator")
