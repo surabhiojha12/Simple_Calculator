@@ -30,7 +30,7 @@ int get_input(){
 }
 
 int main(){
-    int a,b;
+   int a,b;
     a=get_input();
     b=get_input();
     cout<<addition(a,b)<<"\n ";
