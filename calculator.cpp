@@ -23,14 +23,16 @@ int division(int number_1, int number_2){
 }
 
 int get_input(){
-    return 6;
+    int a;
+    cin>>a;
+    return a ;
 
 }
 
 int main(){
     int a,b;
-    get_input(a);
-    get_input(b);
+    a=get_input();
+    b=get_input();
     cout<<addition(a,b)<<"\n ";
     cout<<subractin(a,b)<<"\n";
     cout<<multiplication(a,b)<<"\n";
