@@ -15,24 +15,24 @@ def division(number_1, number_2):
 
 def get_input():
     try : 
-        num1 = float(input("Enter the first number : "))
-        op = input("Enter the operation to be performed : ")
-        num2 = float(input("Enter the second number : "))
+        number_1 = float(input("Enter the first number : "))
+        operator = input("Enter the operation to be performed : ")
+        number_2 = float(input("Enter the second number : "))
     except :
         print("Enter a valid number/operator")
     else :
-        if(op == '+') :
-            print("\nAnswer :",addition(num1,num2))
-        elif(op == '-') :
-            print("\nAnswer :",subtraction(num1,num2))
-        elif(op == '*') :
-            print("\nAnswer :",multiplication(num1,num2))
-        elif(op == '/') :
-            ans = division(num1,num2)
-            if(ans == None):
-                print("\nYou can't divide a number by 0")
+        if(operator == '+') :
+            print("Answer :",addition(number_1,number_2))
+        elif(operator == '-') :
+            print("Answer :",subtraction(number_1,number_2))
+        elif(operator == '*') :
+            print("Answer :",multiplication(number_1,number_2))
+        elif(operator == '/') :
+            answer = division(number_1,number_2)
+            if(answer == None):
+                print("You can't divide a number by 0")
             else :
-                print("\nAnswer :",ans)
+                print("Answer :",answer)
         else :
             print("Enter an valid operation")
 
