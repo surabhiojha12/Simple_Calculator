@@ -6,6 +6,7 @@ def multiplication(number_1, number_2):
 
 def division(number_1, number_2):
 
-def get_input():
+print("SIMPLE CALCULATOR")
+number_1=int(input("Enter First Number"))
+number_2=int(input("Enter Second Number")) 
 
-input()
