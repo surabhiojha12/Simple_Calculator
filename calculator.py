@@ -1,15 +1,18 @@
 def addition(number_1, number_2):
     a=number_1+number_2;
-    print("Answer=",a);
+    print("Addition of ",number_1," and ",number_2,"is:",a);
 def subtraction(number_1, number_2):
     a=number_1-number_2;
-    print("Answer=",a);
+    print("Subtraction of ",number_1," and ",number_2,"is:",a);
 def multiplication(number_1, number_2):
     a=number_1*number_2;
-    print("Answer=",a);
+    print("product of ",number_1," and ",number_2,"is:",a);
 def division(number_1, number_2):
-    a=number_1/number_2;
-    print("Answer=",a);
+    if(number_2 != 0):
+        a=number_1/number_2;
+        print("Division of ",number_1," and ",number_2,"is:",a);
+    else:
+        print("Division cannot be done!");
 def get_input():
     num=int(input());
     return num;
