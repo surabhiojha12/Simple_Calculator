@@ -1,8 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int addition(int number_1, int number_2){
-
+int addition(int number_1, int number_2)
+{
+cout<<number_1+number;
 }
 
 int subtraction(int number_1, int number_2){
