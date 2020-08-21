@@ -2,6 +2,8 @@
 using namespace std;
 
 int addition(int number_1, int number_2){
+    add = number_1 + number_2;
+    cout<<add;
 
 }
 
