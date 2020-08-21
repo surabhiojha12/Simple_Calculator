@@ -30,13 +30,13 @@ int get_input(){
 }
 
 int main(){
-   int a,b;
-    a=get_input();
+   int input1,input2;
+    input1=get_input();
     b=get_input();
-    cout<<addition(a,b)<<"\n ";
-    cout<<subractin(a,b)<<"\n";
-    cout<<multiplication(a,b)<<"\n";
-    cout<<division(a,b)<<"\n";
+    cout<<addition(input1,input2)<<"\n ";
+    cout<<subractin(input1,input2)<<"\n";
+    cout<<multiplication(input1,input2)<<"\n";
+    cout<<division(input1,input2)<<"\n";
     
     return 0;
 }
