@@ -18,13 +18,13 @@ int division(int number_1, int number_2){
 }
 
 int get_input(){
-    int a,b;
+    int number_1,number_2;
     cout<<"Enter 2 numbers"<<endl;
-    cin>>a>>b;
-    cout<<"addition : "<<addition(a,b)<<endl;
-    cout<<"subtraction : "<<subtraction(a,b)<<endl;
-    cout<<"multiplication : "<<multiplication(a,b)<<endl;
-    cout<<"division : "<<division(a,b)<<endl;
+    cin>>number_1>>number_2;
+    cout<<"addition : "<<addition(number_1,number_2)<<endl;
+    cout<<"subtraction : "<<subtraction(number_1,number_2)<<endl;
+    cout<<"multiplication : "<<multiplication(number_1,number_2)<<endl;
+    cout<<"division : "<<division(number_1,number_2)<<endl;
     
 }
 
