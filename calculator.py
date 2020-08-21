@@ -20,16 +20,16 @@ def get_input():
   number_1=int(input("Enter first number"))
   number_2=int(input("Enter second number"))
   if (operator=='+'):
-      print(number_1"+"number_2 "=" addition(number_1,number_2))
+      print(number_1,"+",number_2,"=",addition(number_1,number_2))
   elif (operator=='-'):
-      print(number_1"-"number_2" =" subtraction(number_1,number_2))
+      print(number_1,"-",number_2," =",subtraction(number_1,number_2))
   elif (operator=='*'):
-      print(number_1"*"number_2 "=" multiplication(number_1,number_2))
+      print(number_1,"*",number_2,"=",multiplication(number_1,number_2))
   elif (operator=='/'):
-      print(number_1"/"number_2 "=" division(number_1,number_2))
+      print(number_1,"/",number_2,"=",division(number_1,number_2))
   else:
       print("invalid")
     
   
-
-get_input()
+  
+ get_input()
