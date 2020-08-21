@@ -26,7 +26,24 @@ int division(int number_1, int number_2){
 }
 
 int get_input(){
-
+    char c;
+    int number_1,number_2;
+    cin>>c;
+    cin>>number_1>>number_2;
+    switch(c)
+    {
+        case '+': addition(number_1,number_2);
+                   break;
+        case '-': subtraction(number_1,number_2);
+                   break;
+        case '*': multiplication(number_1,number_2);
+                   break;
+        case '/': division(number_1,number_2);
+                   break;
+        default: cout<< "Invalid"
+       
+    }
+        
 }
 
 int main(){
