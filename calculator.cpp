@@ -1,27 +1,37 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int addition(int number_1, int number_2){
 
-}
+main()
+{
+	char op;
+	float num1, num2;
+	cin >> op;
+	cin >> num1 >> num2;
+	switch (op) {
+	
+	case '+':
+		cout << num1 + num2;
+		break;
+  
+	case '-':
+		cout << num1 - num2;
+		break;
 
-int subtraction(int number_1, int number_2){
+		 
+	case '*':
+		cout << num1 * num2;
+		break;
 
-}
+		
+	case '/':
+		cout << num1 / num2;
+		break;
 
-int multiplication(int number_1, int number_2){
+	default:
+		cout << "Error! operator is not correct";
+		break;
+	} 
 
-}
-
-int division(int number_1, int number_2){
-
-}
-
-int get_input(){
-
-}
-
-int main(){
-    get_input();
-    return 0;
+	return 0;
 }
