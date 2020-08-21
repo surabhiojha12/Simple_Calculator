@@ -8,7 +8,8 @@ def subtraction(number_1, number_2):
     
 
 def multiplication(number_1, number_2):
-    
+    mul = number_1 * number_2
+    return mul    
 
 def division(number_1, number_2):
 
