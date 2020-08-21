@@ -12,6 +12,8 @@ def multiplication(number_1, number_2):
     return mul    
 
 def division(number_1, number_2):
+    div = number_1 // number_2
+    return div
 
 def get_input():
 
