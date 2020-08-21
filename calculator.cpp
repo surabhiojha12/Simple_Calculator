@@ -14,8 +14,14 @@ int multiplication(int number_1, int number_2){
 }
 
 int division(int number_1, int number_2){
-    return number_1/number_2;
-}
+    if(number_2 == ){
+        cout<<" Division by 0 is not defined "<<end;
+        return 0;
+    }
+    else{
+        return number_1/number_2;
+    }
+}    
 
 int get_input(){
     int number_1,number_2;
