@@ -9,6 +9,9 @@ int addition(int number_1, int number_2){
 }
 
 int subtraction(int number_1, int number_2){
+     int d;
+     d=number_1-number_2;
+     return d;
 
 }
 
