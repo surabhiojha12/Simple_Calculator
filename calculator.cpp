@@ -8,6 +8,8 @@ int addition(int number_1, int number_2){
 }
 
 int subtraction(int number_1, int number_2){
+    diff = number_1 - number_2;
+    cout<<diff;
 
 }
 
