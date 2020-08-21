@@ -14,16 +14,16 @@ def division(number_1, number_2):
           print('Division:',number_1 / number_2)
 
 def get_input():
-    num1 = int(input('Enter num1: '))
-    num2 = int(input('Enter num2: '))
-    return (num1, num2)
+    num_1 = int(input('Enter num1: '))
+    num_2 = int(input('Enter num2: '))
+    return (num_1, num_2)
 
 def calculator():
 
-     x, y = get_input()
-     addition(x, y)
-     subtraction(x, y)
-     multiplication(x, y)
-     division(x, y)
+     num1, num2 = get_input()
+     addition(num1, num2)
+     subtraction(num1, num2)
+     multiplication(num1, num2)
+     division(num1, num2)
 
 calculator()
