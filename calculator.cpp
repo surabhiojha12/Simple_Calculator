@@ -25,14 +25,14 @@ int division(int number_1, int number_2){
 
 int get_input()
 {
-	int a,b;
+	int number_1,number_2;
 	cout<<"ENTER TWO NUMBERS";
-	cin>>a>>b;
+	cin>>number_1>>number_2;
 	
-	cout<<"addition of"<<a<<"and"<<b<<":"<<addition(a,b)<<"\n";
-	cout<<"subraction of"<<a<<"and"<<b<<":"<<subraction(a,b)<<"\n";
-	cout<<"multiplication of"<<a<<"and"<<b<<":"<<multiplication(a,b)<<"\n";
-	cout<<"division of"<<a<<"and"<<b<<":"<<division(a,b);	
+	cout<<"addition of"<<number_1<<"and"<<number_2<<":"<<addition(number_1,number_2)<<"\n";
+	cout<<"subraction of"<<number_1<<"and"<<number_2<<":"<<subtraction(number_1,number_2)<<"\n";
+	cout<<"multiplication of"<<number_1<<"and"<<number_2<<":"<<multiplication(number_1,number_2)<<"\n";
+	cout<<"division of"<<number_1<<"and"<<number_2<<":"<<division(number_1,number_2);	
 	
 	return 0;
 	
