@@ -2,40 +2,38 @@
 using namespace std;
 
 int addition(int number_1, int number_2){
-    int c;
-    c=number_1+number_2;
-    return c;
+       
+    return number_1+number_2;
 
 }
 
 int subtraction(int number_1, int number_2){
-     int d;
-     d=number_1-number_2;
-     return d;
+    
+     return  number_1-number_2;
 
 }
 
 int multiplication(int number_1, int number_2){
-    int e;
-    e=number_1*number_2;
-    return e;
+    number_1*number_2;
+    return number_1*number_2;
 
 }
 
 int division(int number_1, int number_2){
-    int f;
-    f=number_1/number_2;
-    return f;
+    if(number_2==0)
+        cout<<"Not defined"<<endl;
+    else
+        return number_1/number_2;
 
 }
 
 int get_input(){
-    int x,y;
-    cin>>x>>y;
-    cout<<addition(x,y)<<endl;
-    cout<<subtraction(x,y)<<endl;
-    cout<<multiplication(x,y)<<endl;
-    cout<<division(x,y)<<endl;
+    int number_1,number_2;
+    cin>>number_1>>number_2;
+    cout<<"Sum of two numbers number_1 and number_2 is: "<<addition(number_1,number_2)<<endl;
+    cout<<"Difference of two numbers number_1 and number_2 is: "<<subtraction(number_1,number_2)<<endl;
+    cout<<"Product of two numbers number_1 and number_2 is: "<<multiplication(number_1,number_2)<<endl;
+    cout<<"Division of two numbers number_1 and number_2 is: "<<division(number_1,number_2)<<endl;
 }
 
 int main(){
