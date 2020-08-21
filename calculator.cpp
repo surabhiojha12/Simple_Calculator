@@ -33,6 +33,7 @@ int get_input(){
        break;
     case '/': division(number_1,number_2)
        break;
+    default: cout<<"ERROR";
 }
 
 int main(){
