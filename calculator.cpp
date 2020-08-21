@@ -30,7 +30,12 @@ int division(int number_1, int number_2){
 }
 
 int get_input(){
-
+    int x,y;
+    cin>>x>>y;
+    cout<<addition(x,y)<<endl;
+    cout<<subtraction(x,y)<<endl;
+    cout<<multiplication(x,y)<<endl;
+    cout<<division(x,y)<<endl;
 }
 
 int main(){
