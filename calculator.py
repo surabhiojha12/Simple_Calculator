@@ -3,6 +3,8 @@ def addition(number_1, number_2):
     return sum
 
 def subtraction(number_1, number_2):
+    diff = number_1 - number_2
+    return diff
     
 
 def multiplication(number_1, number_2):
