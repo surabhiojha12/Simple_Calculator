@@ -16,6 +16,9 @@ int subtraction(int number_1, int number_2){
 }
 
 int multiplication(int number_1, int number_2){
+    int e;
+    e=number_1*number_2;
+    return e;
 
 }
 
