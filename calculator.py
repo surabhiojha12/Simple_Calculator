@@ -16,5 +16,8 @@ def get_input():
   print("-")
   print("*")
   print("/")
+  choice = input("Enter the operator to be used")
+  number_1=int(input("Enter first number"))
+  number_2=int(input("Enter second number"))
 
 input()
