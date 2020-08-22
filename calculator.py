@@ -29,9 +29,15 @@ def get_input():
   elif (operator=='*'):
       print(number_1,"*",number_2,"=",multiplication(number_1,number_2))
   elif (operator=='/'):
-      print(number_1,"/",number_2,"=",division(number_1,number_2))
-  else:
-      print("invalid")
+       division_result = division(number_1,number_2)
+            if(division_result == None):
+                print("You can't divide a number by 0")
+            else :
+                print(number_1,"/",number_2,"=",division(number_1,number_2))
+        else :
+            print(" invalid operation")
+
+
     
   
   
