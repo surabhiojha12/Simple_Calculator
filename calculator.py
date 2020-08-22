@@ -7,5 +7,5 @@ def multiplication(number_1, number_2):
 def division(number_1, number_2):
 
 def get_input():
-
-input()
+  a=int(input())
+  b=int(input())
