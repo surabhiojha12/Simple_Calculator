@@ -7,6 +7,8 @@ def subtraction(number_1, number_2):
     print("Subtraction of " + number_1 + " and " + number_2 +" is " + Sub)
 
 def multiplication(number_1, number_2):
+    int Mul = number_1 * number_2
+    print("Multiplication of " + number_1 + " and " + number_2 +" is " + Mul)
     
 def division(number_1, number_2):
     
