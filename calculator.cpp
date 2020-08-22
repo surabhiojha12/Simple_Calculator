@@ -34,11 +34,6 @@ int get_input(){
 	char operation;
 	cin>>num1;
 	cin>>num2;
-	if(num1==0||num2==0)
-	{
-		cout<<"Enter valid number\n";
-		exit(0);
-	}
 	cout<<"Enter operation to be performed\n";
 	cin>>operation;
 	switch(operation)
