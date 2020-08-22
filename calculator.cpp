@@ -4,28 +4,28 @@ using namespace std;
 int addition(int number_1, int number_2){
 	int add;
 	add=number_1+number_2;
-	cout<<add;
+	cout<<"After addition: "<<add;
 	return 0;
 }
 
 int subtraction(int number_1, int number_2){
 	int sub;
 	sub=number_1-number_2;
-	cout<<sub;
+	cout<<"After subtraction: "<<sub;
 	return 0;
 }
 
 int multiplication(int number_1, int number_2){
 	int mul;
 	mul=number_1*number_2;
-	cout<<mul;
+	cout<<"After multiplication: "<<mul;
 	return 0;
 }
 
 int division(int number_1, int number_2){
 	int div;
 	div=number_1/number_2;
-	cout<<div;
+	cout<<"After division: "<<div;
 	return 0;
 }
 
@@ -48,7 +48,7 @@ int get_input(){
 		multiplication(num1,num2);
 		break;
 		case '/':
-	       	if(num1==0||num2==0)
+	       	if(num2==0)
 	        {
 	        	cout<<"Enter valid number\n";
 	        	exit(0);
