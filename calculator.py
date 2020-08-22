@@ -19,5 +19,6 @@ def division(number_1, number_2):
     
 
 def get_input():
-   
+    number = int(input))
+    return number
  
