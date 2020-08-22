@@ -53,6 +53,11 @@ int get_input(){
 		multiplication(num1,num2);
 		break;
 		case '/':
+	       	if(num1==0||num2==0)
+	        {
+	        	cout<<"Enter valid number\n";
+	        	exit(0);
+        	}
 		division(num1,num2);
 		break;
 	}	
