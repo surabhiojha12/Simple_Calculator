@@ -8,7 +8,10 @@ def multiplication(number_1, number_2):
   return number_1 * number_2
   
 def division(number_1, number_2):
-  return number_1 / number_2
+  if(number_2 == 0):
+    return none
+  else:
+    return number_1 / number_2
   
 def get_input():
   print("select operation")
